@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    max-width: 100%;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    white-space: nowrap;
+    vertical-align: middle;
+    color: #fff;
+    background-color: blue;
+    border-radius: 25px;
+    transition: color .3s, background-color .3s;
+    cursor: pointer;
+    /*outline: 0 !important;*/
+    text-decoration: none;
+    touch-action: manipulation;
+    user-select: none;
+}
+
+.button:hover,
+.button:active {
+    color: red;
+    background-color: #fff;
+}
+
+.stopwatch {
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 20px;
+}
